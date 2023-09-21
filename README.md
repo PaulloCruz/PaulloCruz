@@ -15,7 +15,8 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
 <html>
 <head>
     <style>
-        body {
+        <body> 
+      {
             font-family: Arial, sans-serif;
         }
         skills {
