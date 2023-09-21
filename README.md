@@ -4,9 +4,12 @@
 </head>
 <body>
     <h1>Olá, eu sou Paulo Santana da Cruz 👋</h1>
+    
     <!-- Contador de visualizações -->
+    
 <a href="https://github.com/PaulloCruz">
-  <img src="https://komarev.com/ghpvc/?username=PaulloCruz&label=Visualizações+do+Perfil&color=blueviolet&style=plastic" alt="contador de visualizações do GitHub" />
+  <img src="https://komarev.com/ghpvc/username=PaulloCruz&label=Visualizações+do+Perfil&color=blueviolet&style=plastic" 
+        alt="contador de visualizações do GitHub" />
 </a>
 
     <!-- Foto de perfil -->
