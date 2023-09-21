@@ -6,8 +6,9 @@
     <h1>Olá, eu sou Paulo Santana da Cruz 👋</h1>
     <!--contador de view-->
 <a href="https://github.com/PaulloCruz" style="text-decoration: none;">
-  <img src="https://komarev.com/ghpvc/?username=PaulloCruz&label=Visualizações+do+Perfil&color=blueviolet&style=plastic" alt="contador de visualizações do GitHub" style="border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.5); transition: transform .2s; width: 200px; height: 50px;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
+  <img src="https://komarev.com/ghpvc/?username=PaulloCruz&label=Visualizações+do+Perfil&color=blueviolet&style=flat-square" alt="contador de visualizações do GitHub" style="border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); transition: transform .2s; width: 150px; height: 30px;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
 </a>
+
 
 
     <!-- Foto de perfil -->
