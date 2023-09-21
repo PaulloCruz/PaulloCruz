@@ -11,10 +11,8 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
   - GitHub: PaulloCruz
   - Localização: Maceió, Alagoas, Brasil
 
-## Minhas habilidades
+## Habilidades
 
-markdown
 - JavaScript
 - HTML
 - CSS
-- Portugol
