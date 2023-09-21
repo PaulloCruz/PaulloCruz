@@ -20,7 +20,7 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
 
 
     <h1>Eu sou do Brasil</h1>
-    <img src="https://i.imgur.com/3XqR6Ch.gif" alt="Bandeira do Brasil animada">
+    <img src="[https://i.imgur.com/3XqR6Ch.gif](https://imgur.com/a/58YIcnl)" alt="Bandeira do Brasil animada">
 
 
 
