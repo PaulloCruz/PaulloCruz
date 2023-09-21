@@ -17,9 +17,9 @@ html
 <div class="skills">
   <h2>Habilidades</h2>
   <ul>
-    <li>JavaScript</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Portugol</li>
+    <li class="skill">JavaScript</li>
+    <li class="skill">HTML</li>
+    <li class="skill">CSS</li>
+    <li class="skill">Portugol</li>
   </ul>
 </div>
