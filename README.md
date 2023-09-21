@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Perfil do GitHub</title>
 </head>
 <body>
     <h1>Olá, eu sou Paulo Santana da Cruz 👋</h1>
