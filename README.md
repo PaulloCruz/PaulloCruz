@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Perfil do GitHub</title>
+</head>
+<body>
+    <h1>Olá, eu sou Paulo Santana da Cruz 👋</h1>
+    <!--contador de view-->
+<a href="https://github.com/PaulloCruz" style="text-decoration: none;">
+  <img src="https://komarev.com/ghpvc/?username=PaulloCruz&label=Visualizações+do+Perfil&color=blueviolet&style=flat-square" alt="contador de visualizações do GitHub" style="border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); transition: transform .2s; width: 150px; height: 30px;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+</a>
+
+
+
+    <!-- Foto de perfil -->
+    <img src="https://via.placeholder.com/150" alt="Foto de Perfil">
+</body>
+</html>
+
+## Sobre mim
+Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para internet, onde cursei com excelentes notas e destaques na turma em que me situava. Tenho excelentes habilidades em JavaScript, HTML, CSS e Portugol.
+
+- 🔭 Atualmente não estou trabalhando em nenhum projeto.
+- 🌱 Estou sempre aprendendo e buscando aprimorar minhas habilidades.
+- 📫 Como me encontrar: 
+  - GitHub: PaulloCruz
+  - Localização: Maceió, Alagoas, Brasil
+
+<!DOCTYPE html>
+<html>
+<head>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
+        }
+        .skills {
+            list-style-type: none;
             padding: 0;
-            background-color: #f6f8fa;
         }
-        .perfil {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 20px;
-            margin-top: 50px;
+        .skills li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            transition: background-color 0.5s ease;
         }
-        .perfil img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
+        .skills li:hover {
+            background-color: #ddd;
         }
-        .perfil h1 {
-            font-size: 28px;
-            color: #24292e;
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
         }
-        .perfil p {
-            color: #586069;
-        }
-        .perfil a {
-            text-decoration: none;
-            color: #0366d6;
+        h2 {
+            animation: fadeIn 2s;
         }
     </style>
 </head>
 <body>
-    <div class="perfil">
-        <img src="https://github.com/PaulloCruz.png" alt="Foto do perfil">
-        <h1>Paullo Cruz</h1>
-        <p>@PaulloCruz</p>
-        <a href="https://github.com/PaulloCruz">
-          <img src="https://komarev.com/ghpvc/?username=PaulloCruz&label=Visualizações+do+Perfil&color=blueviolet&style=flat-square" alt="contador de visualizações do GitHub" style="border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); transition: transform .2s; width: 150px; height: 30px;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-        </a>
-    </div>
+    <h2>Habilidades</h2>
+    <ul class="skills">
+        <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" ><img src="[https://via.placeholder.com/50](https://www.flaticon.com/br/icone-gratis/js_5968292?term=javascript&page=1&position=3&origin=tag&related_id=5968292)" target="_blank"> </a> </li>
+        <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> <img src="https://via.placeholder.com/50" target="_blank"> </a> </li>
+        <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> <img src="https://via.placeholder.com/50" target="_blank"> </a> </li>
+    </ul>
 </body>
 </html>
+
