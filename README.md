@@ -18,28 +18,23 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
         body {
             font-family: Arial, sans-serif;
         }
-
-        .skills {
+        skills {
             list-style-type: none;
             padding: 0;
         }
-
-        .skills li {
+        skills li {
             margin-bottom: 10px;
             padding: 10px;
             background-color: #f9f9f9;
             transition: background-color 0.5s ease;
         }
-
-        .skills li:hover {
+        skills li:hover {
             background-color: #ddd;
         }
-
         @keyframes fadeIn {
             from {opacity: 0;}
             to {opacity: 1;}
         }
-
         h2 {
             animation: fadeIn 2s;
         }
