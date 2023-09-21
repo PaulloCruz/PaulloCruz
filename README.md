@@ -8,8 +8,6 @@
 <a href="https://github.com/PaulloCruz" style="text-decoration: none;">
   <img src="https://komarev.com/ghpvc/?username=PaulloCruz&label=Visualizações+do+Perfil&color=blueviolet&style=flat-square" alt="contador de visualizações do GitHub" style="border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); transition: transform .2s; width: 150px; height: 30px;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
 </a>
-</body>
-</html>
 
 ## Sobre mim
 Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para internet, onde cursei com excelentes notas e destaques na turma em que me situava. Tenho excelentes habilidades em JavaScript, HTML, CSS e Portugol.
@@ -19,20 +17,13 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
 - 📫 Como me encontrar: 
   - GitHub: PaulloCruz
     
-  <!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
+
+
     <h1>Eu sou do Brasil</h1>
     <img src="https://i.imgur.com/3XqR6Ch.gif" alt="Bandeira do Brasil animada">
-</body>
-</html>
 
 
-<!DOCTYPE html>
-<html>
-<head>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -58,8 +49,7 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
             animation: fadeIn 2s;
         }
     </style>
-</head>
-<body>
+
     <h2>Habilidades</h2>
     <ul class="skills">
         <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" ><img src="[https://via.placeholder.com/50](https://www.flaticon.com/br/icone-gratis/js_5968292?term=javascript&page=1&position=3&origin=tag&related_id=5968292)" target="_blank"> </a> </li>
