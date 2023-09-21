@@ -23,3 +23,33 @@ html
     <li class="skill">Portugol</li>
   </ul>
 </div>
+.skills {
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.skills h2 {
+  text-align: center;
+  animation: fadeIn 2s;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 10px;
+  transition: background-color 0.5s ease;
+}
+
+.skills li:hover {
+  background-color: #ddd;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
