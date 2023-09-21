@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Perfil do GitHub</title>
+    <title>PaulloCruz</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,8 +23,8 @@
 </head>
 <body>
     <div class="profile">
-        <h1>Olá, eu sou [Seu Nome]</h1>
-        <p>Sou formado em HTML, CSS e JavaScript.</p>
+        <h1>Olá, eu sou PaulloCruz</h1>
+        <p>Tecnico de informática para internet.</p>
         <img src="URL_DA_IMAGEM" alt="Sua Imagem">
     </div>
     <h2>Habilidades:</h2>
