@@ -5,7 +5,9 @@
 <body>
     <h1>Olá, eu sou Paulo Santana da Cruz 👋</h1>
     <!-- Contador de visualizações -->
-    <img src="https://gpvc.arturio.dev/PaulloCruz" alt="Contador de visualizações">
+<a href="https://github.com/PaulloCruz/PaulloCruz">
+  <img src="https://komarev.com/ghpvc/?PaulloCruz&label=Visualizações+do+Perfil&color=blueviolet&style=plastic" alt="contador de visualizações do GitHub" />
+</a>
     <!-- Foto de perfil -->
     <img src="https://via.placeholder.com/150" alt="Foto de Perfil">
 </body>
