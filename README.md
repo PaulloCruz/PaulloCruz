@@ -13,7 +13,7 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
 
 ## Minhas habilidades
 
-```html
+html
 <div class="skills">
   <h2>Habilidades</h2>
   <ul>
