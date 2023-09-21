@@ -1,25 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PaulloCruz</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .profile {
-            text-align: center;
-        }
-        .skills {
-            display: flex;
-            justify-content: center;
-            list-style-type: none;
-        }
-        .projects {
-            display: flex;
-            justify-content: center;
-            list-style-type: none;
-        }
-    </style>
 </head>
 <body>
     <div class="profile">
@@ -29,9 +10,10 @@
     </div>
     <h2>Habilidades:</h2>
     <ul class="skills">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+    <a href="https://developer.mozilla.org/pt-BR/docs/web/javascript/guide/introduction">
+    <img src="https://imgur.com/a/xOwLgIM" alt="JavaScript">
+</a>
+       
     </ul>
     <h2>Projetos em destaque:</h2>
     <ul class="projects">
