@@ -14,9 +14,9 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
 <!DOCTYPE html>
 <html>
 <head>
+  <body>
     <style>
-        <body> 
-      {
+              {
             font-family: Arial, sans-serif;
         }
         skills {
@@ -40,6 +40,7 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
             animation: fadeIn 2s;
         }
     </style>
+  </body>
 </head>
 <body>
     <h2>Habilidades</h2>
