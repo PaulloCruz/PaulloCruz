@@ -1,61 +1,97 @@
-<!DOCTYPE html>
 <html>
 <head>
-</head>
-<body>
-    <h1>Olá, eu sou Paulo Santana da Cruz 👋</h1>
-    <!--contador de view-->
-<a href="https://github.com/PaulloCruz" style="text-decoration: none;">
-  <img src="https://komarev.com/ghpvc/?username=PaulloCruz&label=Visualizações+do+Perfil&color=blueviolet&style=flat-square" alt="contador de visualizações do GitHub" style="border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); transition: transform .2s; width: 150px; height: 30px;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-</a>
-
-## Sobre mim
-Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para internet, onde cursei com excelentes notas e destaques na turma em que me situava. Tenho excelentes habilidades em JavaScript, HTML, CSS e Portugol.
-
-- 🔭 Atualmente não estou trabalhando em nenhum projeto.
-- 🌱 Estou sempre aprendendo e buscando aprimorar minhas habilidades.
-- 📫 Como me encontrar: 
-  - GitHub: PaulloCruz
-    
-
-
-    <h1>Eu sou do Brasil</h1>
-    <img src="https://imgur.com/a/TA7q8k6" alt="Bandeira do Brasil animada">
-
-
-
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .info {
+            margin-top: 10px;
+        }
+        .info p {
+            margin: 5px 0;
+        }
+        .info span {
+            font-weight: bold;
         }
         .skills {
-            list-style-type: none;
-            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
         }
-        .skills li {
+        .skill {
+            background-color: #e6e6e6;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 10px;
             margin-bottom: 10px;
-            padding: 10px;
-            background-color: #f9f9f9;
-            transition: background-color 0.5s ease;
         }
-        .skills li:hover {
-            background-color: #ddd;
-        }
-        @keyframes fadeIn {
-            from {opacity: 0;}
-            to {opacity: 1;}
-        }
-        h2 {
-            animation: fadeIn 2s;
-        }
+        /* Adiciona o arquivo CSS da biblioteca animate.css */
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="photo">
+            <div class="name">Paulo Santana da Cruz</div>
+        </div>
+        <div class="info">
+            <p><span>Formação:</span> Técnico de informática para internet</p>
+            <p><span>Email:</span> paullo.cruz@hotmail.com</p>
+        </div>
+        <div class="skills">
+            <div class="skill">JS</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+        </div>
+    </div>
+    <!-- Adiciona o arquivo JS do jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Seleciona o container pelo seu seletor de classe
+        var container = $(".container");
+        // Adiciona a classe fadeIn ao container
+        container.addClass("animate__animated animate__fadeIn");
+        // Seleciona os skills pelo seu seletor de classe
+        var skills = $(".skill");
+        // Adiciona um evento de mouseover aos skills
+        skills.mouseover(function() {           
+            // Remove a classe bounceOut do skill que está sendo apontado
+            $(this).removeClass("animate__bounceOut");
+            // Adiciona a classe bounceIn ao skill que está sendo apontado
+            $(this).addClass("animate__bounceIn");   
+        });
+         // Adiciona um evento de mouseout aos skills
+         skills.mouseout(function() {
+             // Remove a classe bounceIn do skill que está sendo apontado
+             $(this).removeClass("animate__bounceIn");
+             // Adiciona a classe bounceOut ao skill que está sendo apontado
+             $(this).addClass("animate__bounceOut");          
+         });
+    </script>
 
-    <h2>Habilidades</h2>
-    <ul class="skills">
-        <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" ><img src="[https://via.placeholder.com/50](https://www.flaticon.com/br/icone-gratis/js_5968292?term=javascript&page=1&position=3&origin=tag&related_id=5968292)" target="_blank"> </a> </li>
-        <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> <img src="https://via.placeholder.com/50" target="_blank"> </a> </li>
-        <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> <img src="https://via.placeholder.com/50" target="_blank"> </a> </li>
-    </ul>
 </body>
 </html>
-
