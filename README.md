@@ -14,22 +14,21 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
 <!DOCTYPE html>
 <html>
 <head>
-  <body>
     <style>
-              {
+        body {
             font-family: Arial, sans-serif;
         }
-        skills {
+        .skills {
             list-style-type: none;
             padding: 0;
         }
-        skills li {
+        .skills li {
             margin-bottom: 10px;
             padding: 10px;
             background-color: #f9f9f9;
             transition: background-color 0.5s ease;
         }
-        skills li:hover {
+        .skills li:hover {
             background-color: #ddd;
         }
         @keyframes fadeIn {
@@ -40,7 +39,6 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
             animation: fadeIn 2s;
         }
     </style>
-  </body>
 </head>
 <body>
     <h2>Habilidades</h2>
@@ -49,5 +47,6 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
         <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a></li>
         <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS</a></li>
     </ul>
+  
 </body>
 </html>
