@@ -14,31 +14,6 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .skills {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills li {
-            margin-bottom: 10px;
-            padding: 10px;
-            background-color: #f9f9f9;
-            transition: background-color 0.5s ease;
-        }
-        .skills li:hover {
-            background-color: #ddd;
-        }
-        @keyframes fadeIn {
-            from {opacity: 0;}
-            to {opacity: 1;}
-        }
-        h2 {
-            animation: fadeIn 2s;
-        }
-    </style>
 </head>
 <body>
     <h2>Habilidades</h2>
