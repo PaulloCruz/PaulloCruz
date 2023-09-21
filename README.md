@@ -1,6 +1,16 @@
-# Olá, eu sou Paulo Santana da Cruz 👋
-
-!Profile views
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfil do GitHub</title>
+</head>
+<body>
+    <h1>Olá, eu sou Paulo Santana da Cruz 👋</h1>
+    <!-- Contador de visualizações -->
+    <img src="https://gpvc.arturio.dev/PaulloCruz" alt="Contador de visualizações">
+    <!-- Foto de perfil -->
+    <img src="https://via.placeholder.com/150" alt="Foto de Perfil">
+</body>
+</html>
 
 ## Sobre mim
 Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para internet, onde cursei com excelentes notas e destaques na turma em que me situava. Tenho excelentes habilidades em JavaScript, HTML, CSS e Portugol.
