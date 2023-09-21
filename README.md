@@ -13,7 +13,6 @@
     <a href="https://developer.mozilla.org/pt-BR/docs/web/javascript/guide/introduction">
     <img src="https://imgur.com/a/xOwLgIM" alt="JavaScript">
 </a>
-       
     </ul>
     <h2>Projetos em destaque:</h2>
     <ul class="projects">
