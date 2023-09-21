@@ -10,8 +10,8 @@
     </div>
     <h2>Habilidades:</h2>
     <ul class="skills">
-    <a href="https://developer.mozilla.org/pt-BR/docs/web/javascript/guide/introduction">
-    <img src="file:///C:/Users/paulo/AppData/Local/Temp/MicrosoftEdgeDownloads/e156de77-8943-447d-b5db-ad0f7ef35e42/js.png"target="_blank" alt="JavaScript">
+    <a href="https://developer.mozilla.org/pt-BR/docs/web/javascript/guide/introduction"target="_blank"
+    img src="file:///C:/Users/paulo/AppData/Local/Temp/MicrosoftEdgeDownloads/e156de77-8943-447d-b5db-ad0f7ef35e42/js.png" alt="JavaScript">
 </a>
     </ul>
     <h2>Projetos em destaque:</h2>
