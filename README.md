@@ -52,9 +52,9 @@ Eu sou um aluno do SESI SENAI. Meu curso foi de técnico de informática para in
 <body>
     <h2>Habilidades</h2>
     <ul class="skills">
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" ><img src="https://via.placeholder.com/50" target="_blank" alt="JavaScript"></a></li>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" <img src="https://via.placeholder.com/50" target="_blank"> alt="HTML"></a></li>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" <img src="https://via.placeholder.com/50"target="_blank"> alt="CSS"></a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" ><img src="https://via.placeholder.com/50" target="_blank"</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> <img src="https://via.placeholder.com/50" target="_blank"></a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> <img src="https://via.placeholder.com/50"target="_blank"></a></li>
     </ul>
 </body>
 </html>
