@@ -4,7 +4,8 @@
 </head>
 <body>
     <div align="center" >
-        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=0B9BF7&center=true&vCenter=true&width=435&lines=Be+welcome+%3A);my+name+is+PaulloCruz;i'm+from+Brazil;i'm+a+student+" alt="Typing SVG" /></a> <br><br>
+         <!-- BEM VINDO-->
+        <a href=""><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=0B9BF7&center=true&vCenter=true&width=435&lines=Be+welcome+%3A);my+name+is+PaulloCruz;i'm+from+Brazil;i'm+a+student+" alt="Typing SVG" /></a> <br><br>
         <br><p align="center"><b>Studying in this moment:</b></p>
             <img align="center" alt="PaulloCruz-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" style="max-width: 100%;">
         </a>
