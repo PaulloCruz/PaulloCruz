@@ -21,7 +21,7 @@
         
 <p align="center"><a href=""><img src="https://readme-typing-svg.demolab.com?font=roboto&weight=300&duration=3000&pause=&color=FFFFFF&center=true&vCenter=true&repeat=false&width=435&lines=Contact+me%3A" alt="Typing SVG" /></a><br>
 <div> 
-<a href="https://instagram.com/paullosantanaa__" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href="https://instagram.com/paulosantanaa__" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href = "mailto:paullo.cruz@hotmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
     
 <!-- <a href="https://www.linkedin.com/in/seu-usuário-linkedln-aqui" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>    -->
