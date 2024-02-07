@@ -11,11 +11,23 @@
     <div class="container">
         <div class="caixa"><h2  class="title">IMC</h2>
             <div class="campos">
-                <input type="text" name="nome" class="nome" placeholder="Ex: Omen do Saco">
-                <input type="text" name="altura" class="altura" placeholder="Altura em metros Ex: 1.50">
-                <input type="text" name="peso" class="peso" placeholder= "Peso em kg Ex: 80,59">
-                <button onclick="calcular()" class="botao">Calcular</button>
+                <form action="">
+                <input required type="text" name="nome" class="nome" placeholder="Ex: Omen do Saco" >
+                <input required type="text" name="altura" class="altura" id="altura" placeholder="Altura em metros Ex: 1.50" >
+                <input required type="text" name="peso" class="peso" id="peso" placeholder= "Peso em kg Ex: 80.59" >
             </div>
+            <div class="noCampos">
+
+            <div class="saidaDados" id="saidaDados">
+                
+                </div>
+
+                <div class="botao">
+                    <button onclick="calcular()" class="botao">Calcular</button>
+                </div>
+            </div>
+        </form>
+                
         </div>
     </div>
     <script src="script.js"></script>
