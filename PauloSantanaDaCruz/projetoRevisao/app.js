@@ -6,8 +6,9 @@ btnMostrar.addEventListener("click",()=>{
  let numero = inNumero.value
  console.log(numero)
 
- if (numero===0 || isNaN(numero)) {
-    alert("Digite um numero valido")
+ if (numero===0 || isNaN(numero)|| numero== ' ') {
+    alert(` Digite um numero valido`)
+    
     inNumero.focus()
     return
     
@@ -18,7 +19,7 @@ for (let i = 1; i <=10; i++) {
 }
 let resposta = ''
 for (let i = 1; i <=10; i++){
-    resposta = `${resposta+numero} x ${i} = ${numero*i}` 
+    resposta = `${resposta+numero} x ${i} = ${numero*i} <br>` 
 }
 outTabuda.innerHTML = `${resposta}`
 })

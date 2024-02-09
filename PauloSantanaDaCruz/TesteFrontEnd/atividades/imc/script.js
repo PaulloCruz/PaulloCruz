@@ -19,8 +19,8 @@ const resposta = document.getElementById('saidaDados')
     if  (altura == ' ' ||peso == ' '||nome == ' ') {
         alert('Bora preencher os campos amigão?')
     }
-    if (isNaN(altura)|| isNaN(peso)) {
-        alert('É pra digitar um numero nos campos de altura e peso amigão')
+    else if (isNaN(altura)|| isNaN(peso)) {
+        alert('É pra digitar numero nos campos de altura e peso amigão')
     }
 
     if (calculo<=16.9) {

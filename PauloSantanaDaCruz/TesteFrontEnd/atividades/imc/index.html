@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="caixa"><h2  class="title">IMC</h2>
+            <div class="campos">
+                <form action="">
+                    
+                <label for="nome">Nome:</label>
+                <input required type="text" name="nome" class="nome" placeholder="Ex: Omen do Saco" >
+                <label for="altura">Altura:</label>
+                <input required type="text" name="altura" class="altura" id="altura" placeholder="Altura em metros Ex: 1.50" >
+                <label for="peso">Peso:</label>
+                <input required type="text" name="peso" class="peso" id="peso" placeholder= "Peso em kg Ex: 80.59" >
+            </div>
+            <div class="noCampos">
+
+            <div class="saidaDados" id="saidaDados">
+                
+                </div>
+
+                <div class="botao">
+                    <button onclick="calcular()" class="botao">Calcular</button>
+                </div>
+            </div>
+        </form>
+                
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
