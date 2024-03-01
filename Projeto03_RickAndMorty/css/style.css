@@ -117,3 +117,59 @@ body{
 .character-info a:hover{
     color: orange;
 }
+
+.character-info{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+}
+.character-info h3{
+    font-size: 1.5rem;
+}
+.character-info .character-link{
+    color: var(--white);
+    text-decoration: none;
+
+}
+
+.character-info h3:hover,
+.character-info .character-link.character-link:hover{
+    color: var(--orange-400);
+}
+.character-info .alive::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(4, 190, 5);
+    margin-right: 0.4rem;
+}
+
+.character-info .alive::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 0.4rem;
+}
+.character-info .origin{
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.location-session{
+    background-color: var(--gray-800);
+    text-align: center;
+}
+
+.location-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2rem;
+    gap: 1rem;
+}
