@@ -1,37 +1,53 @@
+
 const btnApostar = document.getElementById("btnApostar");
 const btnJogar = document.getElementById("btnJogar");
 const divDica = document.getElementById("outDica ");
 let tentativas = [];
 
 btnApostar.addEventListener("click", () => {
+
   // entrada
   const numero = document.getElementById("inNumero").value;
   const numeroSorteado = Math.floor(Math.random() * 100);
-  const chances = 6;
+ 
   // saida
   const divErros = document.getElementById("outErros");
   const divChance = document.getElementById("outChances");
   const divDica = document.getElementById("outDica");
-
-if(chances = 0){}
-  if (numero == numeroSorteado) {
+  let chances = 6
+if(chances>0){
+  if (numero == numeroSorteado){
     alert("Voce acertou, parabueins");
+    btnApostar.disabled = true
 
   } else if (numeroSorteado > numero) {
     divDica.innerHTML = `Dica é um numero maior que ${numero} `;
 
     tentativas.unshift(numero);
-    console.log(tentativas)
-    divErros.innerHTML = `${tentativas}`;
-
+    console.log(chances)
+    divErros.textContent = `${tentativas}`;
+    divChance.innerHTML = ` ${chances}`
     chances = chances -1
+
   } else if (numeroSorteado < numero) {
     divDica.innerHTML = `Dica é um numero numero menor que ${numero}`
 
-    chances = chances-1
     divChance.innerHTML = `${chances}`
     tentativas.unshift(numero);
-    divErros.innerHTML = `${tentativas}`;
-
+    divErros.textContent = `${tentativas}`; 
+   chances = chances-1
+  }
+  }
+  if (chances==0) {
+    alert('suas chances acabaram')
+    btnApostar.disabled = true
   }
 });
+
+
+
+
+
+
+
+
