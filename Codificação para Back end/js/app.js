@@ -39,3 +39,5 @@ console.log(number.sort(ordemCrescente))
 
 const ordemDecrescente = (a,b)=> b - a
 console.log(number.sort(ordemDecrescente))
+
+console.log(number.reverse())

@@ -35,5 +35,5 @@ console.log(`${cidades} \t ${cidades.toString()} \t ${cidades.join(' - ')}`)
 // localizar elementos no array
 const numero = [1,2,3,4,5,5,6,6,7,7,8,9,0,0]
 console.log(numero.indexOf(5))// indice do primeiro elemento
-console.log(numero.lastIndexOf) //indice do ultimo elemento elemento
+console.log(numero.lastIndexOf()) //indice do ultimo elemento elemento
 console.log()
