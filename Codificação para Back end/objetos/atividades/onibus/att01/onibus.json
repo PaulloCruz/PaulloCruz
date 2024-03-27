@@ -30,19 +30,20 @@
                     "ordem": 2
                 },
                 {
-                    "id": 103,
-                    "nome": "Estação Rodoviária",
-                    "latitude": -9.6692,
-                    "longitude": -35.727,
-                    "ordem": 3
-                },
-                {
                     "id": 104,
                     "nome": "Avenida Principal",
                     "latitude": -9.671,
                     "longitude": -35.7225,
                     "ordem": 4
+                },
+                {
+                    "id": 103,
+                    "nome": "Estação Rodoviária",
+                    "latitude": -9.6692,
+                    "longitude": -35.727,
+                    "ordem": 3
                 }
+           
             ]
         },
         {
@@ -89,7 +90,7 @@
                 }
             ]
         }
-    ],
+        ],
     "onibus": [
         {
             "id": "A100",
