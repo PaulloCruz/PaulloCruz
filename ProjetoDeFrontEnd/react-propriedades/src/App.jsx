@@ -6,7 +6,7 @@ const Titulo = (props) => {
 }
 const SubTitulo = ({texto, cor}) =>{
   return(
-      <p style={{color: cor}}>{texto}</p>
+    <p style={{color: cor}}>{texto}</p>
   )
 }
 const App = () => {

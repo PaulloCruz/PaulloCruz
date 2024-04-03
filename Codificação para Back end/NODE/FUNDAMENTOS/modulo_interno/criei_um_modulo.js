@@ -12,7 +12,7 @@ module.exports = {
         console.log(`${a/b}`)
     },
     aoQuadrado(a){
-        console.log(`${a*a}`)
+        console.log(`${a*a}`)   
     }, 
     multiplicacao(a,b){
         console.log(`${a*b}`)
