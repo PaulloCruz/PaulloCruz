@@ -1,0 +1,6 @@
+.container{
+    max-width: 400px;
+    height: 600px;
+    background-color: darkgray ;
+    flex-direction: column;   
+}
