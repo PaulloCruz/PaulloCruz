@@ -15,7 +15,7 @@ import React from "react";
 // export default App
 
 // hooks
-// os hooks s]ao funções especiais do react que permitem conrtrolarmos  o estado e o ciclo de vida do componentes funcionais
+// os hooks sao funções especiais do react que permitem conrtrolarmos  o estado e o ciclo de vida do componentes funcionais
 
 // react.useState- é uma função que retorna um array com 2 valores. o primeiro valor guarda o dado do estado atual, que pode ser qualquer tipo de dado como strings, arrays, numeros, boolean, null, undefined ou objetos. o segundo valor é uma função que pode ser utilizada para modificarmos o estado do primeiro valor 
 
