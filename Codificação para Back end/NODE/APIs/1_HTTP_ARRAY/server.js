@@ -34,7 +34,7 @@ const server = http.createServer((request, response) => {
     response.setHeader("Content-Type", "application/json");
     response.end(JSON.stringify(users));
     
-  } else if (url.startsWith('/users/') && method=== 'GET') {//Busar um unico usuario
+  } else if (url.startsWith('/users/') && method=== 'GET') {//Buscar um unico usuario
     // o que vem dps de users é o indice do array e não o id, so que o id é igual ao indice do, 
 
     const userId = url.split('/')[2] // toda vez que encontrar uma [/] ele vai cortar e o [2] ele vai pegar o pedaço do indice 2
