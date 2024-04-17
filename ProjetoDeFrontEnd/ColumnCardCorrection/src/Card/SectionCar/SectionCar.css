@@ -1,0 +1,11 @@
+article{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    background-color: burlywood;
+}
+
+img{
+    width: 100px;
+}
