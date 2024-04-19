@@ -1,7 +1,5 @@
-import { resolveObjectURL } from "node:buffer";
-import { resolveNaptr } from "node:dns";
 import http, { request } from "node:http";
-import { stringify } from "node:querystring";
+
 const PORT = 3333;
 
 //  Metodos:
@@ -22,6 +20,9 @@ const PORT = 3333;
 // Códigos
 const users = [];
 const server = http.createServer((request, response) => {
+  
+
+
   const { method, url } = request;
   //   logica
 
@@ -80,7 +81,7 @@ const server = http.createServer((request, response) => {
   const contantoCidade = users.reduce((acc,participants)=>{
     acc[participants.cidade] = (acc[participants.cidade] || 0)+1 
     return acc
-  },{})    
+  },{})     
   console.log(contantoCidade)
   // console.log(Object.entries(contantoCidade))
   let quantidadeDeParticipantes = 0 
@@ -92,7 +93,7 @@ const server = http.createServer((request, response) => {
     }
   })
   response.setHeader('Content-Type','application/json')
-  response.stringify({"Quantidade total de participantes":quantidadeDeParticipantes, "Cidade com o maior numero de participante":cidadeComMaiorNumeroDeParticipantes})
+  response.stringify({"Quantidade total de participantes":quantidadeDeParticipantes, "Cidade com o maior numero de participante":cidadeComMaiorNumeroDeParticipantes7})
   response.end()
   }
    else if (url.startsWith("/participants/") && method === "GET") {

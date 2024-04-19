@@ -1,0 +1,21 @@
+body{
+    background-image: url(../images/bg-intro-desktop.png) ;
+    background-color: hsl(0, 100%, 74%);    
+}
+.Geral{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.Container{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}
+
+.Text{
+    width: 300px;
+}

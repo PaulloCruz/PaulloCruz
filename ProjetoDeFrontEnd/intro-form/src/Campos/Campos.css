@@ -1,0 +1,16 @@
+input{
+    width: 200px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    font-size: 10px;
+    border-radius: 10px;
+}
+.anuncio{
+    background-color: hsl(248, 32%, 49%);
+    width: 300px;
+    border-radius: 10px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
