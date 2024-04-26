@@ -1,7 +1,5 @@
 import http from "node:http";
 import fs from "node:fs";
-import { v4 as uuidv4 } from "uuid";
-import { join } from "node:path";
 const PORT = 3333;
 // titulo, autor, genero, anoPublicação,[personagens],
 const server = http.createServer((request, response) => {
@@ -84,28 +82,30 @@ const server = http.createServer((request, response) => {
           );
         }
       });
-    } else if (url.startsWith('/livros/') && method=='DELETE') {//DELETE
-        const id = url.split('/')[2]
-        const index = jsonData.findIndex((livro) => livro.id == id)
-        if(index!==1){
-            jsonData.splice(index,1)
-            fs.writeFile(
-                "livros.json",
-                JSON.stringify(jsonData,null,2),(err)=>{
-                    if(err){
-                        response.writeHead(500,{'Content-Type':'application/json'})
-                        response.end(
-                            JSON.stringify({message:'Erro interno do servidor 4'})
-                        )
-                        return
-                    }
-                    response.writeHead(200,{'Content-type':'application/json'})
-                    response.end(
-                        JSON.stringify({message:'Livro removido com sucesso'})
-                    )
-                }
-            )         
-        }
+    } else if (url.startsWith("/livros/") && method == "DELETE") {
+      //DELETE
+      const id = url.split("/")[2];
+      const index = jsonData.findIndex((livro) => livro.id == id);
+      if (index !== 1) {
+        jsonData.splice(index, 1);
+        fs.writeFile(
+          "livros.json",
+          JSON.stringify(jsonData, null, 2),
+          (err) => {
+            if (err) {
+              response.writeHead(500, { "Content-Type": "application/json" });
+              response.end(
+                JSON.stringify({ message: "Erro interno do servidor 4" })
+              );
+              return;
+            }
+            response.writeHead(200, { "Content-type": "application/json" });
+            response.end(
+              JSON.stringify({ message: "Livro removido com sucesso" })
+            );
+          }
+        );
+      }
     } else {
       response.writeHead(404, { "Content-Type": "application/json" });
       response.end(JSON.stringify({ message: "Página não encontrada" }));

@@ -21,20 +21,51 @@ import React from "react";
 
 // quando a função de modificação do estado é ativada, todos os componentes que dependerem do estados, serão renderizados e os seus filhos também. é issop que garante a reatividade de componentes funcionais no react 
 
-const App = () => {
-  const [ativo, setAtivo] = React.useState(true);
-  const [contar,setContar] = React.useState(0)
+// const App = () => {
+//   const [ativo, setAtivo] = React.useState(true);
+//   const [contar,setContar] = React.useState(0)
 
-  return (
-    <>
-    <button onClick={()=> setAtivo(!ativo)}>
-      {ativo ? "botão ativo" : "Botão Inativo"}
-    </button>
+//   return (
+//     <>
+//     <button onClick={()=> setAtivo(!ativo)}>
+//       {ativo ? "botão ativo" : "Botão Inativo"}
+//     </button>
 
-    <button onClick={()=> setContar(contar+1)}></button>
-    </>
-  );
+//     <button onClick={()=> setContar(contar+1)}></button>
+//     </>
+//   );
   
-};
+// };
+
+// export default App;
+
+import Listar from "./Listar/Listar"
+import "./Listar/Listar.css"
+
+const App = () => {
+    
+    const [contar, setContar] = React.useState(0)
+
+    return(
+        <>
+            <div className="btn-subEsom">
+                <button
+                className="btn-subtrair"
+                onClick={() => setContar(contar - 1)}>
+                    -
+                </button>
+                <p>
+                    {contar}
+                </p>
+                <button
+                className="btn-somar"
+                onClick={() => setContar(contar + 1)}>
+                    +
+                </button>
+            </div>
+                <Listar/>
+        </>
+    )
+}
 
 export default App;
